@@ -1,0 +1,292 @@
+body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0;
+    display: grid;
+    background-color: #313030;
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      
+}
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#video-bg video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+#txt1{
+    background-color: #ffffff;
+    margin: 0px;
+    width: 70%;
+    margin-inline: auto;
+    color: #000000;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#h12{
+    color: #000000;
+    margin: 0px;   
+}
+h4{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+header{
+    margin-top: 0px;
+    background-color: #000000;
+    padding: 20px;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+}
+.cd{
+    background-color: #000000;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-inline: auto;
+    padding-top: 1px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+.time{
+    display: grid;
+    grid-auto-flow: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px; 
+    margin-bottom: 60px;   
+}
+.time p{
+    color: #ffffff;
+}
+
+h3{
+    margin-top: 0px;
+    color: #ffffff; 
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+}
+.item{
+    transition: .35s;
+    cursor: pointer;
+}
+.container:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 0px; 
+    background-color: #ffffff;
+}
+.container img{
+    width: 70%;
+    border-radius: 20px;
+}
+#intro {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 30px;
+    margin-top: 40px;
+    
+}
+p{
+    color: rgb(0, 0, 0); ;
+    font-size: 16pt;
+    font-weight: bold;
+}
+button{
+    margin-bottom: 40px;
+    margin-top: 70px;
+    width: 20%;
+    padding: 20px;
+    margin-inline: auto;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #f7fd5f;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}
+button:hover{
+    background-color: #a108fa;
+    cursor: pointer;
+}
+#ind{
+    background-color: #f7fd5f;
+    color: black;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    
+}
+#int{
+    background-color: black;
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#int p{
+    color: #ffffff;
+}
+#h2{
+    margin-top: 0px;
+    color: black;
+}
+#bt{
+    background-color: #ffffff;
+}
+.card{
+    margin: 50px;
+    width: 60%;
+    margin-inline: AUTO;
+    cursor: pointer;
+}
+.card-text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card img{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px){
+
+    header{
+        height: 60px;
+    }
+    header img{
+        width: 150px;
+        margin-top: 0px;
+    }
+    .time{
+        width: 60%;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+    .cd{
+        padding: 15px;
+        margin: 10px;
+    }
+    #txt1{
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #int{
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+        padding-top: 20px;
+        
+    }
+    #int h3, p{
+        padding: 0px;
+        font-size: 18px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #ind{
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 19px;
+    }
+    .container{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .card{
+        width: 80%;
+    }
+    .card-text{
+        font-size: 0px;  
+    }
+    
+}
+    
+@media screen and (max-width: 700px){
+    h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .time{
+        width: 60%;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+    .cd{
+        padding: 1px;
+        margin: 5px;
+    }
+    #txt1{
+        font-size: 13px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #int{
+        font-size: 10px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+        padding-top: 20px;
+        
+    }
+    #int h3, p{
+        padding: 0px;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #ind{
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .container{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .card{
+        width: 80%;
+    }
+    .card-text{
+        font-size: 0px;  
+    }
+    button{
+        width: 200px;
+    }
+    
+}
